@@ -23,7 +23,7 @@ def is_enabled(value, default):
 # Owner Information
 API_ID = int(environ.get("API_ID", "22287041"))
 API_HASH = environ.get("API_HASH", "c149386dcd58a40fa9fe60e632e161d4")
-ADMINS = int(environ.get("ADMINS", "6141937812"))
+ADMINS = int(environ.get("ADMINS", "2108417544"))
 
 # Database Information
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://djtecno3:WCisaeUZZNlnsxCC@cluster0.lgs6ieg.mongodb.net/?retryWrites=true&w=majority")
@@ -37,7 +37,7 @@ DB_NAME = environ.get("DB_NAME", "Cluster0")
 
 # Bot Information
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
-BOT_USERNAME = environ.get("BOT_USERNAME", "FileXPandaWep_bot") # your bot username without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "free_FileStoreBot") # your bot username without @
 PICS = (environ.get('PICS', 'https://graph.org/file/b3125068739885e7109db.jpg https://graph.org/file/b3125068739885e7109db.jpg')).split() # Bot Start Picture
 
 # Auto Delete Information
@@ -46,8 +46,8 @@ AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "600")) # Time in Seconds
 
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002017045810"))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002066950447')).split()]
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002039622849"))
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', ' -1002002188326')).split()]
 
 
 
@@ -67,7 +67,7 @@ class Var(object):
     name = str(getenv('name', 'filetolinkvjbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002017045810'))
+    BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002002188326'))
     PORT = int(getenv('PORT', 8080))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
